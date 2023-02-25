@@ -10,17 +10,17 @@ namespace ex3
         static void Main(string[] args)
         {
             int day = 28800;
-            int a, result;
+            double a, roundedResult;
             Console.WriteLine("Введите время првоеденное на рабочем месте в секундах");
             a = int.Parse(Console.ReadLine());
             if (a>=0)
             {
-                result = (28800 - a) / 3600;
-                Console.WriteLine(result);
+                roundedResult = Math.Round((day - a) / 3600, 0);
+                Console.WriteLine(roundedResult);
             }
             else
             {
-                Console.WriteLine("Ввели некорректное число, время не может быть отрицателным");
+                Console.WriteLine("Ввели некорректное число, время не может быть отрицательным");
             }
         }
     }
