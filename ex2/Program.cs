@@ -9,7 +9,7 @@ namespace ex2
     {
         static void Main(string[] args)
         {
-            int n1, n2, n3, n4, n5, n6, n7, result;
+            int n1, n2, n3, n4, n5, n6, n7;
             Console.WriteLine("Введите число n1");
             n1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите число n2");
@@ -45,5 +45,6 @@ namespace ex2
 
             Console.WriteLine(i - 1);
         }
+
     }
 }
