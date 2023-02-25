@@ -28,5 +28,22 @@ namespace ex2
             Console.WriteLine("Максимальное число =" + mas.Max());
             Console.WriteLine();
         }
+
+        public static void ReferenceSolve()
+        {
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+            int d = Convert.ToInt32(Console.ReadLine());
+            int e = Convert.ToInt32(Console.ReadLine());
+            int f = Convert.ToInt32(Console.ReadLine());
+            int j = Convert.ToInt32(Console.ReadLine());
+
+            int i = 0;
+
+            for (i = 0; i <= a || i <= b || i <= c || i <= d || i <= e || i <= f || i <= j; i++) { }
+
+            Console.WriteLine(i - 1);
+        }
     }
 }
